@@ -1,0 +1,7 @@
+q0       8   3  0  # set_io q0  6
+q1      12   3  0  # set_io q1  3
+q2      16   3  0  # set_io q2  62
+$iopadmap$helloworldfpga.d0  30  32  0  # set_io d0 38
+$iopadmap$helloworldfpga.d1  28  32  0  # set_io d1 36
+$iopadmap$helloworldfpga.d2  26  32  0  # set_io d2 37
+$iopadmap$helloworldfpga.cl  22  32  0  # set_io cl 34

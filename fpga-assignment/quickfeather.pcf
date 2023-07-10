@@ -1,0 +1,9 @@
+set_io q0  6
+set_io q1  3
+set_io q2  62
+
+set_io d0 38
+set_io d1 36
+set_io d2 37
+
+set_io cl 34
