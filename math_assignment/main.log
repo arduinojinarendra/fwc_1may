@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  13 JUL 2023 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  14 JUL 2023 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,6 +211,9 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks25
 \inpenc@posthook=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
@@ -840,24 +843,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -882,8 +885,19 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \c@lstlisting=\count344
-Package hyperref Info: Link coloring OFF on input line 45.
+LaTeX Info: Redefining \celsius on input line 46.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 46.
 
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 46.
+Package gensymb Info: Using \Omega for \ohm on input line 46.
+
+Package gensymb Warning: Not defining \micro.
+
+Package hyperref Info: Link coloring OFF on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -895,9 +909,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count345
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -938,12 +952,12 @@ LaTeX Info: Redefining \nameref on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -955,21 +969,21 @@ LaTeX Warning: No \author given.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<line.png, id=40, 344.7279pt x 328.8285pt>
+<line.png, id=39, 843.15pt x 836.12375pt>
 File: line.png Graphic file (type png)
 <use line.png>
-Package pdftex.def Info: line.png  used on input line 107.
-(pdftex.def)             Requested size: 542.02501pt x 517.08476pt.
+Package pdftex.def Info: line.png  used on input line 108.
+(pdftex.def)             Requested size: 542.02501pt x 537.51591pt.
  [2] [3 <./line.png>]
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2725DF27A96B8479CD78AA192431057B;83.
  ) 
 Here is how much of TeX's memory you used:
- 25296 strings out of 478287
- 497017 string characters out of 5849289
- 809786 words of memory out of 5000000
- 43025 multiletter control sequences out of 15000+600000
+ 25356 strings out of 478287
+ 498105 string characters out of 5849289
+ 810117 words of memory out of 5000000
+ 43082 multiletter control sequences out of 15000+600000
  478988 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,15n,89p,447b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -981,10 +995,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (3 pages, 119680 bytes).
+Output written on main.pdf (3 pages, 138222 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 28 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

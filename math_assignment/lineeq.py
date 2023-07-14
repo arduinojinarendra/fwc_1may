@@ -34,12 +34,12 @@ plt.plot(x1, y1, label='Line 1: 2x - y + 1 = 0')
 
 # Line passing through point A with slope m2_1
 x2_1, y2_1 = line_equation(A, m2_1)
-plt.plot(x2_1, y2_1, label='Line 2 (Case 1): 5√3x + 11y = 49 - 10√3')
+plt.plot(x2_1, y2_1, label='Line 2 (Case 1): 5√3-8x + 11y = 49 - 10√3')
 
 
 # Line passing through point A with slope m2_2
 x2_2, y2_2 = line_equation(A, m2_2)
-plt.plot(x2_2, y2_2, label='Line 2 (Case 2): 5√3x + 11y = 49 + 10√3')
+plt.plot(x2_2, y2_2, label='Line 2 (Case 2): 5√3+8x + 11y = 49 + 10√3')
 plt.xlabel('$x$')
 plt.ylabel('$y$')
 plt.legend()

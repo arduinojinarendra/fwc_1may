@@ -11,6 +11,7 @@
 %\usepackage[latin1]{inputenc}
 \usepackage[utf8]{inputenc}
 \usepackage{amsfonts}
+\usepackage{gensymb}
 \usepackage{multicol}
 \usepackage{multicol}
 \usepackage{tabularx}
@@ -51,12 +52,12 @@
 This is Problem-12 from Exercise 10.3
 
 \begin{enumerate}
-\item Two lines passing through point $\vec{P} = (2,3)$ intersect each other at an angle of $60^\circ$. If the slope of one line is $2$, find the equation of the other line.
+\item Two lines passing through point $\vec{P} = \myvec{2\\3}$ intersect each other at an angle of $60\degree$. If the slope of one line is $2$, find the equation of the other line.
 \end{enumerate}
 
 \section{Solution}
 
-Let $\vec{P} = \myvec{ 2 \\ 3 }$ be the given point, and the slope of one line $2$. Let the slope of the other line be $m$, and the angle between them be $60^\circ$.
+Let $\vec{P} = \myvec{ 2 \\ 3 }$ be the given point, and the slope of one line $2$. Let the slope of the other line be $m$, and the angle between them be $60\degree$.
 
 \textbf{Input data:}
 \begin{align}
@@ -80,27 +81,27 @@ m &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
 m &= \frac{-16 \pm \sqrt{16^2 - 4(11)(-1)}}{2(11)} \\
 m &= \frac{-16 \pm \sqrt{300}}{22} \\
 m &= \frac{-8 - 5\sqrt{3}}{11} \\
-or\\ 
-m &= \frac{-8 + 5\sqrt{3}}{11} 
+\text{or,}  m &= \frac{-8 + 5\sqrt{3}}{11} 
 \end{align}
 
 Therefore, the equation of the other line can be determined using these values.
 \\
-case 1: Line passing through point $\vec{P}$ with slope $m=\frac{-8 - 5\sqrt{3}}{11}$
+case 1: Line passing through point  $\vec{P} = \myvec{ 2 \\ 3 }$ with slope $m=\frac{-8 - 5\sqrt{3}}{11}$
 \begin{align}
     \vec{n}^\top\cbrak{{\vec{x}-\vec{P}}}&= 0 \\
     \vec{n} = \myvec{ m \\ -1 } \\
     \myvec{ \frac{-8 - 5\sqrt{3}}{11} & -1 }\cbrak{\vec{x}-\myvec{ 2 \\ 3 }} &= 0
 \end{align}
-Then the equation for $m=\frac{-8 - 5\sqrt{3}}{11}$ is \hspace{0.4cm}  $(5\sqrt{3}+8)x+11y=49+10\sqrt{3}$
+Then the equation for $m=\frac{-8 - 5\sqrt{3}}{11}$ is  $(5\sqrt{3}+8)x+11y=49+10\sqrt{3}$
 \\
-case 2 : Line passing through point $\vec{P}$ with slope $m =\frac{-8 + 5\sqrt{3}}{11}$
+case 2 : Line passing through point $\vec{P} = \myvec{ 2 \\ 3 }$ with slope $m =\frac{-8 + 5\sqrt{3}}{11}$
+
 \begin{align}
      \vec{n}^\top\cbrak{{\vec{x}-\vec{P}}}&= 0 \\
     \vec{n} = \myvec{ m \\ -1 } \\
     \myvec{ \frac{-8 + 5\sqrt{3}}{11} & -1 }\cbrak{\vec{x}-\myvec{ 2 \\ 3 }} &= 0
 \end{align}
-Therefore then  the equation for $m=\frac{-8 + 5\sqrt{3}}{11}$  is \hspace{0.4cm}  $(5\sqrt{3}-8)x+11y=49-10\sqrt{3}$
+Therefore then  the equation for $m=\frac{-8 + 5\sqrt{3}}{11}$  is   $(5\sqrt{3}-8)x+11y=49-10\sqrt{3}$
 
 \begin{figure}
     \centering
